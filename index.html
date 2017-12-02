@@ -3,12 +3,67 @@
 <head>
 <title></title>
 <style>
+  html,body{
+  margin:0;
+  padding:0;
+  height: 100%;
+}
+header{
+  background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkVM7NCM34-8iz3YLiCzVdGKkowzrichuxe4wPj3gCQtz9pBO7);
+width:100%;
+height:200px;
+  background-size:100% 200px;
+  color:white;
+  font-size:200px;
+}
+aside{
+  width:30%;
+  background-color:darkblue;
+  
+  color:white;
+  font-size:35px;
+}
+
+content{
+  display:flex;  
+  height: calc(100% - 200px)
+}
+footer{
+ 
+ height:50px;
+  background-color:red;
+  
+  
+}
+.main{
+  flex:1;
+  display:flex;
+  flex-direction:column;
+}
+main{
+  flex:1;
+  background-color:red;
+  color:white;
+  font-size:30px;
+}
 
 </style>
 </head>
 <body>
 <!-- Paste your HTML code here -->
-  
+<header>hello</header>
+ 
+<content> 
+<aside>
+    <ul>
+      <li>Ryley</li>
+      <li>Seth</li>
+  </aside>
+  <div class='main'>
+    <main>hello</main>
+<footer>go away</footer>
+  </div>
+</content>  
   
 <script>
 // Paste your JavaScript code here
